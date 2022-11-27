@@ -1,0 +1,55 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.listItemTitle {
+  background-color: #00C2E0;
+  color: #363537;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: None;
+  border-bottom: #363537 solid 1px;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.listItemTitle.active, .listItemTitle:hover {
+  background-color: #7696D0;
+}
+.listItemContent {
+  padding: 20px;
+  display: none;
+  overflow: hidden;
+  background-color: #EFF1F3;
+  color: #363537;
+}
+.listItemContent.active {
+  display: block;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/*1: ccf5ac*/
+/*2: BAD29F*/
+/*3: 808A9F*/
+/*2C497F*/
+/*3D2B56*/
+/**/
+/*!*druga wersja*!*/
+/*FED766 !*zolty*!*/
+/*009FB7 00C2E0 !*turkus*!*/
+/*EFF1F3!*bialawy*!*/
+/*2C497F 345798 !*granat*!*/
+/*363537 !*szary*!*/
