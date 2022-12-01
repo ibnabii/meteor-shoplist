@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ListItem } from "./List"
+import {ShoppingList} from "./ShoppingList";
 
 const lista = [
     {_id: 1, text: "Marchewksa", extraInfo:{"ilosc": "1-2 sztuki"}},
@@ -12,9 +12,6 @@ export const App = () => {
 
 
     return (
-        <div>
-            <h1>Welcome to Meteor!</h1>
-            {lista.map(item => <ListItem key={item._id} item={item}/>)}
-        </div>
+        <ShoppingList list={lista} />
     );
 };
