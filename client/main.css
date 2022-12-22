@@ -1,6 +1,7 @@
-body {
+html, body, #react-target {
   padding: 10px;
   font-family: sans-serif;
+  height: 100%;
 }
 
 .listItemTitle {
@@ -11,9 +12,11 @@ body {
   width: 100%;
   border: None;
   border-bottom: #363537 solid 1px;
+  border-top: #363537 solid 1px;
   text-align: left;
   outline: none;
   font-size: 15px;
+  border-radius: 5px;
 }
 
 .listItemTitle.active, .listItemTitle:hover {
@@ -25,9 +28,41 @@ body {
   overflow: hidden;
   background-color: #EFF1F3;
   color: #363537;
+  border-radius: 5px;
 }
 .listItemContent.active {
   display: block;
+}
+
+path {
+  fill: #FED766;
+}
+
+.listMgmt {
+  background-color: #EFF1F3;
+  width: 90%;
+  height: 90%;
+  flex-flow: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: flex;
+  flex-flow: row;
+}
+
+
+.newListObject {
+  background-color: #00C2E0;
+  height: 200px;
+  flex-basis: 150px;
+  margin: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  display: flex;
+}
+.newListObject:hover {
+  background-color: #7696D0;
 }
 
 .vertical {

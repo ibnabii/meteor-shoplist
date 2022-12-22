@@ -7,6 +7,8 @@ export const ListItem = ({ item }) => {
     const toggleActive = () => {
         setActive(!isActive);
     }
+    console.log('ListItem');
+    console.log(item)
     return (
         <div className="listItem">
             <button
